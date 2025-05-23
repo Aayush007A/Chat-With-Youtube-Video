@@ -20,6 +20,9 @@ import numpy as np
 from uuid import uuid4
 from datetime import datetime
 import pytz
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
