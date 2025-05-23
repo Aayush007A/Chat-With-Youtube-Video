@@ -29,7 +29,6 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Set OpenAI API key securely
-os.environ["OPENAI_API_KEY"] = ""
 
 # Initialize Wikipedia API
 user_agent = "YouTubeVideoChat/1.0 (https://example.com/contact; your-email@example.com)"
