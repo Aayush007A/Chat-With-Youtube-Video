@@ -8,7 +8,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough, RunnableLambda
 from langchain_core.output_parsers import StrOutputParser
 from langchain.retrievers import ContextualCompressionRetriever
-from langchain.retrievers.document_compressors import LLMChainExtractor
+from langchain.retrievers.document_compressors.chain_extract import LLMChainExtractor
 from langchain.retrievers import BM25Retriever
 from langchain.retrievers import MultiQueryRetriever
 import os
